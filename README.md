@@ -268,6 +268,7 @@ select Icons -> Information in the top menu.
 
 ### General
 - `-DBINARY_RELEASE=ON` changed build type to release and optimize for distribution.
+- `-DPREFILL_PLAYER_NAME=ON` prefill the player name field so keyboard is not required for controller.
 - `-DNONET=ON` disable network support, this also removes the need for the ASIO and Sodium.
 - `-DUSE_SDL1=ON` build for SDL v1 instead of v2, not all features are supported under SDL v1, notably upscaling.
 - `-DSPAWN=ON` build the shareware version, using spawn.mpq from the original shareware; which can still be [downloaded](http://ftp.blizzard.com/pub/demos/diablosw.exe) for free.
